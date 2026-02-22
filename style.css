@@ -78,3 +78,25 @@ main section h1 {
   font-family: "Crimson Text", serif;
   font-weight: 400;
 }
+
+.brands {
+  display: flex;
+  flex-direction: column;
+  align-items: last baseline;
+}
+
+.brands h6 {
+  color: #6f6f6f;
+  font-weight: normal;
+  font-size: 15px;
+}
+main .brands div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 90px;
+}
+
+main .brands div img {
+  border: none;
+}
