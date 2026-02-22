@@ -100,3 +100,63 @@ main .brands div {
 main .brands div img {
   border: none;
 }
+
+.benefits {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: last baseline;
+}
+
+.benefits > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.benefits .cards {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.benefits .cards div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: last baseline;
+  gap: 30px;
+}
+
+.benefits .cards div h3 {
+  font-family: "Crimson Text", serif;
+  font-weight: bold;
+}
+
+.benefits h6 {
+  font-family: monospace;
+  font-size: 18px;
+  color: #6f6f6f;
+}
+
+.benefits h2 {
+  font-family: "Crimson Text", serif;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.benefits p {
+  color: #6f6f6f;
+}
+
+.benefits img {
+  border: none;
+}
+
+.cards {
+  display: flex;
+}
